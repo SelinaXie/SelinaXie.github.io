@@ -15,7 +15,7 @@ body {
 	height: 100%;
 	font-family: 'Helvetica Neue', Helvetica, STHeiTi, arial, sans-serif;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	background: #FAFAFA;
 	color: #444;
 	overflow-x: hidden;
@@ -42,7 +42,8 @@ i {
 }
 
 .number {
-	font-weight: 100;
+	font-weight: 500;
+	color:red;
 }
 
 .table {

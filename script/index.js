@@ -111,19 +111,19 @@
 
     function renderTable4(list) {
       var listHTML = '<tr><td class="table-subtitle" colspan="8">'+ '唇膏唇釉 翻过来有小花花哦' +'</td></tr>';
-
-      list.forEach(function(item) {
+      list.forEach(function(item,index) {
         listHTML += '<tr>';
         listHTML += '<td>'+ item.a1 +'</td>';
         listHTML += '<td><img src="'+ item.a2 +'" alt="" /></td>';
         listHTML += '<td class="number">'+ item.a3 +'</td>';
         listHTML += '<td>'+ item.a4 +'</td>';
-        listHTML += '<td>'+ item.a5 +'</td>';
+        listHTML += index === 0 ? '<td rowspan = "2">'+ "# Justin黄明昊亲选<br\>你喜欢的颜色<br\>它们都有！"+'</td>' : '';
+        listHTML += '<td class="number">'+ item.a5 +'</td>';
         listHTML += '<td class="number">'+ item.a6 +'</td>';
-        listHTML += '<td class="number">'+ item.a7 +'</td>';
-        listHTML += '<td><button class="copy-btn" data-clipboard-text="'+ item.a8 +'">复制</button></td>';
+        listHTML += '<td><button class="copy-btn" data-clipboard-text="'+ item.a7 +'">复制</button></td>';
         listHTML += '</tr>';
       });
+
 
       tableEl.innerHTML += listHTML;
     }

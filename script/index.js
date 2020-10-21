@@ -91,7 +91,7 @@
     }
 
     function renderTable3(list) {
-      var listHTML = '<tr><td class="table-subtitle" colspan="8">'+ '高光腮红' +'</td></tr>';
+      var listHTML = '<tr><td class="table-subtitle" colspan="8">'+ '高光腮红争霸赛battle赢家公示处' +'</td></tr>';
 
       list.forEach(function(item) {
         listHTML += '<tr>';

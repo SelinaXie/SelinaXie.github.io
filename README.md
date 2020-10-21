@@ -1,11 +1,5 @@
 # grocery-list
 
-## 启动服务
-```bash
-python app.py
-```
-浏览器打开 http://127.0.0.1:5000/
-
 ## 添加/修改数据
 ```javascript
 window.__data = {

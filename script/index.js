@@ -61,7 +61,7 @@
         listHTML += '<td><img src="'+ item.a2 +'" alt="" /></td>';
         listHTML += '<td class="number">'+ item.a3 +'</td>';
         listHTML += '<td>'+ item.a4 +'</td>';
-        listHTML += index === 0 ? '<td rowspan="' + 5 + '">'+ "因！为！它！是！大！家！都！爱！的！迪！士！尼！呀！ <br\>  <br> 迪！士！尼！</br> <br\> 可爱实用 性价比超高 <br\> 颜值无敌 设计走心 配色我爱了<br\>你呢？"+'</td>' : '';
+        listHTML += index === 0 ? '<td rowspan="' + 6 + '">'+ "因！为！它！是！大！家！都！爱！的！迪！士！尼！呀！ <br\>  <br> 迪！士！尼！</br> <br\> 可爱实用 性价比超高 <br\> 颜值无敌 设计走心 配色我爱了<br\>你呢？"+'</td>' : '';
         listHTML += '<td class="number">'+ item.a5 +'</td>';
         listHTML += '<td class="number">'+ item.a6 +'</td>';
         listHTML += '<td><button class="copy-btn" data-clipboard-text="'+ item.a7 +'">复制</button></td>';
@@ -140,7 +140,7 @@
         listHTML += '<td>'+ item.a5 +'</td>';
         listHTML += '<td class="number">'+ item.a6 +'</td>';
         listHTML += '<td class="number">'+ item.a7 +'</td>';
-        listHTML += '<td><button class="copy-btn" data-clipboard-text="'+ item.a8 +'">复制</button></td>';
+        listHTML += '<td><button class="copy-btn"  data-clipboard-text="'+ item.a8 +'">复制</button></td>';
         listHTML += '</tr>';
       });
 

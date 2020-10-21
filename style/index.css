@@ -193,3 +193,6 @@ i {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	position: relative;
 }
+.copy-btn{
+	font-size:6px;
+}

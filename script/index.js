@@ -24,7 +24,7 @@
     var listData5 = window.__data.list6 || []; // 列表数据
 
     document.title = title;
-    titleEl.innerHTML = table_title;
+    titleEl.innerHTML = table_title+'<br\><button class="copy-btn" style="font-size:12px" data-clipboard-text="5👈付致文本￥vJsIci0PnpS$到👉τa0寳👈或掂击链街 https://m.tb.cn/h.4bgJHqa 至流览器【judydoll橘朵旗舰店】">店铺淘口令复制</button></td>';
     dialogMsg.innerHTML = message;
     renderTable1(listData);
     setTimeout(function() {
